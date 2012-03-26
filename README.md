@@ -1,10 +1,10 @@
-1.How to compile it?
+## How to compile it?
 
 just compile all the java files.
 
 	>>javac *.java
 
-2.How to run it?
+## How to run it?
 
 a. Run the main entry:
 
@@ -32,7 +32,7 @@ b. Run each algorithm to make a query:
 
 and then, you can input words to get the answers.
 
-3.Pooling is a program to test and compute the 
+## Pooling is a program to test and compute the 
 precision, recall, average precision.
 
 e.g. 
