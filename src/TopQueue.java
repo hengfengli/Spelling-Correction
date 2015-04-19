@@ -2,7 +2,6 @@
  * File Name:   TopQueue.java
  * Description: A Top-queue can records the top-ranking nodes
  * Author:      Hengfeng Li
- * Student ID:  383606
  */
 import java.io.IOException;
 import java.io.PrintWriter;

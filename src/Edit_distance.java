@@ -2,7 +2,6 @@
  * File Name:   Edit_distance.java
  * Description: The normal edit distance algorithm
  * Author:      Hengfeng Li
- * Student ID:  383606
  */
 import java.io.*;
 import java.util.HashSet;

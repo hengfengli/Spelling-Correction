@@ -2,7 +2,6 @@
  * File Name:   Pooling.java
  * Description: A evaluation program using pooling strategy
  * Author:      Hengfeng Li
- * Student ID:  383606
  */
 import java.io.*;
 import java.util.ArrayList;

@@ -2,7 +2,6 @@
  * File Name:   Predecessor.java
  * Description: A interface applied to a Top-queue
  * Author:      Hengfeng Li
- * Student ID:  383606
  */
 
 public interface Predecessor {

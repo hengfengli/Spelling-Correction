@@ -2,7 +2,6 @@
  * File Name:   Main.java
  * Description: The main entry of program
  * Author:      Hengfeng Li
- * Student ID:  383606
  */
 import java.io.*;
 import java.util.*;

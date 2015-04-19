@@ -2,7 +2,6 @@
  * File Name:   Editex.java
  * Description: A phonetic matching technique "Editex"
  * Author:      Hengfeng Li
- * Student ID:  383606
  */
 import java.io.*;
 import java.util.HashSet;

@@ -2,7 +2,6 @@
  * File Name:   N_Gram.java
  * Description: An implementation of 2-gram algorithm
  * Author:      Hengfeng Li
- * Student ID:  383606
  */
 import java.io.*;
 import java.util.*;

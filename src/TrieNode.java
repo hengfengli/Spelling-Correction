@@ -2,7 +2,6 @@
  * File Name:   TrieNode.java
  * Description: A node in the trie
  * Author:      Hengfeng Li
- * Student ID:  383606
  */
 
 public class TrieNode {

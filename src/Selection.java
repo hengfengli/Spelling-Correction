@@ -2,7 +2,6 @@
  * File Name:   Selection.java
  * Description: The selection mechanism
  * Author:      Hengfeng Li
- * Student ID:  383606
  */
 
 public class Selection {

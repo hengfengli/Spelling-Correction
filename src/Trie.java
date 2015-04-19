@@ -2,7 +2,6 @@
  * File Name:   Trie.java
  * Description: A simple dictionary trie
  * Author:      Hengfeng Li
- * Student ID:  383606
  */
 
 public class Trie {
