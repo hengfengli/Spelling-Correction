@@ -6,6 +6,7 @@
 import java.io.*;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.lang.*;
 
 public class Editex {
 
@@ -24,22 +25,28 @@ public class Editex {
 
     /** Judge whether two letters are in a group or not. */
     private static boolean isSameGroup(char char1, char char2){
-        if(char1 == 'h' || char1 == 'w' || char2 == 'h' || char2 == 'w'
+        if (!Character.isLetter(char1) || !Character.isLetter(char2)) {
+            return false;
+        }
+      
+        char1 = Character.toLowerCase(char1);
+        char2 = Character.toLowerCase(char2);
+      
+        if (char1 == 'h' || char1 == 'w' || char2 == 'h' || char2 == 'w'
                 || char1 == '#' || char2 == '#'){
             return false;
         }
-        else {
-            int [] char1GroupNum = lettersInfo[char1-'a'];
-            int [] char2GroupNum = lettersInfo[char2-'a'];
-            for(int i = 0; i < char1GroupNum.length; i++) {
-                for(int j = 0; j < char2GroupNum.length; j++) {
-                    if(char1GroupNum[i] == char2GroupNum[j]){
-                        return true;
-                    }
+        
+        int [] char1GroupNum = lettersInfo[char1-'a'];
+        int [] char2GroupNum = lettersInfo[char2-'a'];
+        for(int i = 0; i < char1GroupNum.length; i++) {
+            for(int j = 0; j < char2GroupNum.length; j++) {
+                if(char1GroupNum[i] == char2GroupNum[j]){
+                    return true;
                 }
             }
-            return false;
         }
+        return false;
     }
 
     /**
